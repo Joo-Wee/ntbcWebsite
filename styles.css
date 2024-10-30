@@ -1,0 +1,24 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.image {
+		@apply max-[900px]:w-16 max-[900px]:h-20 max-[1024px]:w-80 max-[1024px]:h-80 my-auto mx-0 w-36 h-44
+	}
+	
+	.nav-menu {
+      @apply max-[900px]:fixed max-[900px]:top-20 max-[900px]:-left-full max-[900px]:flex-col max-[900px]:justify-center max-[900px]:items-center max-[900px]:bg-white/[0.7] max-[900px]:backdrop-blur-[20px] max-[900px]:w-full max-[900px]:min-h-[450px] max-[900px]:h-[90vh] max-[900px]:duration-300 
+      flex list-none relative py-16 ps-80 pe-80
+   }
+   
+   .nav-link {
+      @apply no-underline font-semibold ps-[15px] pe-[15px] ms-5 me-5
+   }
+
+   .active-link {
+      @apply relative text-green-700 duration-300 after:content-[''] after:absolute after:left-1/2 after:-bottom-[15px] after:-translate-y-1/2 after:-translate-x-1/2 after:w-[5px] after:h-[5px] after:bg-green-700 after:rounded-3xl
+   }
+}
