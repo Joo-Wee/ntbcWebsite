@@ -1,8 +1,13 @@
 {
 	"scripts": {
-		"watch": "npx tailwindcss -i ./styles.css -o ./src/output.css --watch"
+		"watch": "concurrently \"npx tailwindcss -i ./style.css -o ./src/output.css --watch\" \"live-server ./src cross-env BROWSER=chrome\""
 	},
-  "devDependencies": {
-    "tailwindcss": "^3.4.14"
-  }
+	"devDependencies": {
+		"tailwindcss": "^3.4.14"
+	},
+	"dependencies": {
+		"concurrently": "^9.0.1",
+		"cross-env": "^7.0.3",
+		"live-server": "^1.2.2"
+	}
 }
