@@ -1,14 +1,27 @@
 {
-	"scripts": {
-		"watch": "concurrently \"npx tailwindcss -i ./style.css -o ./src/output.css --watch\" \"live-server ./src cross-env BROWSER=chrome\"",
-		"build": "npx tailwindcss -i ./style.css -o ./src/output.css --watch"
-	},
-	"devDependencies": {
-		"tailwindcss": "^3.4.14"
-	},
-	"dependencies": {
-		"concurrently": "^9.0.1",
-		"cross-env": "^7.0.3",
-		"live-server": "^1.2.2"
-	}
+  "name": "ntbcwebsite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.3.3"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "@eslint/eslintrc": "^3"
+  }
 }
