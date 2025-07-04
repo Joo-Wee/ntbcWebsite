@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NTBC Ghana",
-  description: "New Testament Baptist Church, Ghana official website",
+  title: "WWNTBC Ghana",
+  description: "Worldwide New Testament Baptist Church, Ghana's02 official website",
   manifest: '/site.webmanifest',
   icons: {
     icon: [
@@ -42,10 +42,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-white`}
       >
-        <header 
-          className="lg:max-w-screen-378 max-w-full max-sm:px-5 max-sm:py-7 px-20 w-full h-full mx-auto py-8 max-lg:px-12 xl:px-20 2xl:px-40 min-[1700px]:px-[20rem] bg-[#FAFAFA] sticky top-0 z-50 shadow-lg">
-          <Navigation/>
-        </header>
         {children}
         <footer className="flex justify-center items-center flex-col gap-y-[30px] bg-[#F8F8F8] py-10 px-[60px]">
             <div className="flex">

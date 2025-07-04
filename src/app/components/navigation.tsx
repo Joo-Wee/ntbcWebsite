@@ -10,7 +10,7 @@ export const Navigation = () => {
             alt="ntbc-logo"
             width={196}
             height={75}
-            className="xl:max-w-24 xl:h-auto w-20 h-10 lg:-mt-5 sm:-mt-0"
+            className="xl:max-w-24 xl:h-auto w-16 h-auto lg:-mt-5 sm:-mt-0"
           />
         </Link>
         <div id="myNavMenu" 
@@ -19,28 +19,28 @@ export const Navigation = () => {
                     className="max-[900px]:flex-col flex text-center">
                     <li className="flex-auto relative w-3/12 list">
                         <Link href="#home" 
-                            className="no-underline text-feat-text-col font-semibold ps-[15px] pe-[15px] ms-5 me-5 relative text-[#003867] duration-300 after:content-[''] after:absolute after:left-1/2 after:-bottom-[15px] after:-translate-y-1/2 after:-translate-x-1/2 after:w-[5px] after:h-[5px] after:bg-[#6e57e0] after:rounded-5xl">
+                            className="no-underline text-feat-text-col font-semibold ps-[15px] pe-[15px] ms-5 me-5 relative duration-300 after:content-[''] after:absolute after:left-1/2 after:-bottom-[15px] after:-translate-y-1/2 after:-translate-x-1/2 after:w-[5px] after:h-[5px] after:bg-[#6e57e0] after:rounded-5xl">
                             Home
                         </Link>
                         <div className = "circle"></div>
                     </li>
                     <li className="flex-auto relative w-3/12 list">
                         <Link href="#about" 
-                            className="no-underline text-feat-text-col font-semibold ps-[15px] pe-[15px] ms-5 me-5 text-[#003867]">
+                            className="no-underline text-feat-text-col font-semibold ps-[15px] pe-[15px] ms-5 me-5">
                             About
                         </Link>
                     <div className="circle"></div>
                     </li>
                     <li className="flex-auto relative w-3/12 list">
                         <Link href="#projects" 
-                            className="no-underline text-feat-text-col font-semibold ps-[15px] pe-[15px] ms-5 me-5 text-[#003867]">
+                            className="no-underline text-feat-text-col font-semibold ps-[15px] pe-[15px] ms-5 me-5">
                             Projects
                         </Link>
                         <div className="circle"></div>
                     </li>
                     <li className="flex-auto relative w-3/12 list">
                         <Link href="#contact" 
-                            className="no-underline text-feat-text-col font-semibold ps-[15px] pe-[15px] ms-5 me-5 text-[#003867]">
+                            className="no-underline text-feat-text-col font-semibold ps-[15px] pe-[15px] ms-5 me-5">
                             Contact
                         </Link>
                         <div className="circle"></div>
@@ -49,7 +49,7 @@ export const Navigation = () => {
             </div>
 
             <div className="max-[900px]:hidden flex-initial w-44 p-0 box-border">
-                <button className = "font-normal py-4 px-5 bg-[#003867] rounded-xl leading-none hover:bg-[#6e57e0] hover:text-white">Download CV <i className="ml-2.5 fa-solid fa-download"></i></button>
+                <button className = "font-normal py-4 px-5 bg-[#dc1a24] rounded-xl leading-none text-[#FAFAFA] hover:bg-[#03068a] hover:text-white">Contact Us <i className="ml-2.5 fa-solid fa-download"></i></button>
             </div>
             <div className="max-[900px]:flex max-[900px]:items-center max-[900px]:justify-center hidden">
                 <i className="fa-solid fa-bars" /*onclick="myMenuFunction()"*/></i>
