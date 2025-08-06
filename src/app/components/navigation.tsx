@@ -25,21 +25,21 @@ export const Navigation = () => {
                         <div className = "circle"></div>
                     </li>
                     <li className="flex-auto relative w-3/12 list">
-                        <Link href="#about" 
+                        <Link href="about" 
                             className="no-underline text-feat-text-col font-semibold ps-[15px] pe-[15px] ms-5 me-5">
                             About
                         </Link>
                     <div className="circle"></div>
                     </li>
                     <li className="flex-auto relative w-3/12 list">
-                        <Link href="#projects" 
+                        <Link href="#services" 
                             className="no-underline text-feat-text-col font-semibold ps-[15px] pe-[15px] ms-5 me-5">
-                            Projects
+                            Services
                         </Link>
                         <div className="circle"></div>
                     </li>
                     <li className="flex-auto relative w-3/12 list">
-                        <Link href="#contact" 
+                        <Link href="contact" 
                             className="no-underline text-feat-text-col font-semibold ps-[15px] pe-[15px] ms-5 me-5">
                             Contact
                         </Link>

@@ -28,7 +28,7 @@ export default function Services(){
     ];
 
     return(
-        <section className="pt-[8vh]">
+        <section id="services" className="pt-[8vh]">
             <div className="ps-[12vw] pe-[12vw] text-[32px] w-full py-[1vw] font-bold text-[#003867]">
                 <h1 className="max-[900px]:text-3xl text-center max-[900px]:ml-[2rem]">Worship With Us</h1>
             </div>

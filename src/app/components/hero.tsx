@@ -35,7 +35,7 @@ export const Hero = () => {
     }, []);
 
     return (
-        <section
+        <section id="home"
             className="w-full bg-cover bg-center bg-no-repeat relative lg:h-[800px] sm:h-86"
             style={{
                 backgroundImage: `url(${images[currentImageIndex]})`,

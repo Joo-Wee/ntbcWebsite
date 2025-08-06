@@ -59,7 +59,7 @@ export default function RootLayout({
               <span className="font-bold text-[#ff0912] mb-2">Quick Links</span>
               <a href="#home" className="mb-1 px-7 text-[#003867] hover:underline">Home</a>
               <a href="#about" className="mb-1 px-7 text-[#003867] hover:underline">About</a>
-              <a href="#projects" className="mb-1 px-7 text-[#003867] hover:underline">Projects</a>
+              <a href="#projects" className="mb-1 px-7 text-[#003867] hover:underline">Services</a>
               <a href="#contact" className="mb-1 px-7 text-[#003867] hover:underline">Contact</a>
             </div>
 
