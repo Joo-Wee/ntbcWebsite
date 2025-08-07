@@ -29,8 +29,8 @@ export default function Contact() {
                 <div className="flex flex-col w-full lg:w-2/3 py-4 gap-6">
                     <h2 className="text-3xl sm:text-4xl capitalize font-black text-[#ff0912] text-shadow">Get In Touch</h2>
                     <p className="text-lg sm:text-xl text-[#FAFAFA]">
-                        "We would love to hear from you! 
-                        Whether you have questions, need prayer, or want to learn more about New Testament Baptist Church, please don't hesitate to reach out."
+                        We would love to hear from you! 
+                        Whether you have questions, need prayer, or want to learn more about New Testament Baptist Church, please don't hesitate to reach out.
                     </p>
                     <div className="flex flex-row gap-4 mt-6 max-sm:text-xs max-sm:flex-col max-sm:items-center">
                         <button className = "font-normal py-4 px-5 bg-[#ff0912] rounded-sm leading-none text-[#FAFAFA] hover:bg-[#03068a] hover:text-white">Contact Us</button>

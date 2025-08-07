@@ -28,10 +28,10 @@ export default function About() {
           <div className="flex flex-col gap-5 bg-[#f6f6f6] w-full shadow-lg/20 rounded-b-2xl py-6 px-4 sm:px-[2vw]">
                 <h2 className="text-[25px] font-bold text-[#ff0912]">Who We Are</h2>
                 <p className="text-base/8 text-[#003867] capitalize">
-                  "New Testament Baptist Church is a Bible-believing church dedicated to spreading the teachings of Christ and making a positive impact on the world around us. 
+                  New Testament Baptist Church is a Bible-believing church dedicated to spreading the teachings of Christ and making a positive impact on the world around us. 
                   Our motto, 'The Church That Jesus Built,' reflects our commitment to foundational Christian principles and a genuine desire to serve our community.
                   We believe in the transformative power of faith and strive to create a welcoming environment where individuals can grow spiritually, connect with others, 
-                  and find purpose. Our aim is to empower believers to live out their faith in practical ways, contributing to a better world for all."
+                  and find purpose. Our aim is to empower believers to live out their faith in practical ways, contributing to a better world for all.
                 </p>
             </div> 
           </div>
