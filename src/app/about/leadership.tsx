@@ -18,7 +18,7 @@ export default function Leadership(){
                     <div className="w-full sm:w-4/5 md:w-1/2 lg:w-1/3 flex justify-center items-center flex-col h-auto">
                         <div className="w-full h-full rounded-3xl shadow-xl">
                             <Image
-                                src="./images/Pastor-Peter.png"
+                                src="/images/Pastor-Peter.png"
                                 alt="Vector Image"
                                 width={500}
                                 height={500}
@@ -33,7 +33,7 @@ export default function Leadership(){
                     <div className="w-full sm:w-4/5 md:w-1/2 lg:w-1/3 flex justify-center items-center flex-col h-auto">
                         <div className="w-full h-full rounded-3xl shadow-xl">
                             <Image
-                                src="./images/Pastor-Gideon.png"
+                                src="/images/Pastor-Gideon.png"
                                 alt="Vector Image"
                                 width={500}
                                 height={500}
@@ -48,7 +48,7 @@ export default function Leadership(){
                     <div className="w-full sm:w-4/5 md:w-1/2 lg:w-1/3 flex justify-center items-center flex-col h-auto">
                         <div className="w-full h-full rounded-3xl shadow-xl">
                             <Image
-                                src="./images/Pastor-Frederick.png"
+                                src="/images/Pastor-Frederick.png"
                                 alt="Vector Image"
                                 width={500}
                                 height={500}

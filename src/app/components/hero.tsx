@@ -1,10 +1,8 @@
 "use client";
-import Image from "next/image";
-import Link from "next/link";
 import { useState, useEffect } from "react";
 import { Navigation } from "./navigation";
 
-var images = [
+const images = [
     'https://lh3.googleusercontent.com/p/AF1QipOArBwHW_pCziFrJpz1Qr5rtjQTJdVHThRFBBX9=s680-w680-h510',
     './images/DSCN4649.JPG',
     './images/DSCN4650.JPG'
