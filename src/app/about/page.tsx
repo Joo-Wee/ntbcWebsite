@@ -3,16 +3,16 @@ import Leadership from "./leadership";
 
 export default function About() {
     return (
-      <section className="ps-[6vw] pe-[6vw] pt-[6vh] flex flex-col" id="games">
+      <section className="bg-[#FAFAFA] px-4 sm:px-[6vw] pt-[6vh] flex flex-col" id="games">
         <div className="text-[32px] w-full py-[1vw] font-bold text-[#003867]">
-          <h1 className="max-[900px]:text-3xl text-center max-[900px]:ml-[2rem]">About Us</h1>
+          <h1 className="max-[900px]:text-3xl text-center">About Us</h1>
         </div> 
-          
-        <div className="ms-[4rem] max-w-[90rem] pb-[4rem] gap-1 me-[4vw] flex flex-row items-start z-[5]">
-          <div className="relative w-1/2 max-h-[60vh] h-[55vh] flex items-right flex ps-2 pe-2 w-full">
-            <div className="max-[900px]:hidden z-[6] relative h-full mx-auto md:relative md:flex-col"
+        <div className="flex flex-col lg:flex-row gap-6 max-w-[90rem] pb-8 w-full mx-auto items-start z-[5]">
+          {/* Hide image section on mobile */}
+          <div className="hidden lg:flex relative w-full lg:w-1/2 max-h-[60vh] h-[55vh] items-center justify-center px-2">
+            <div className="z-[6] h-full mx-auto"
               style={{
-                backgroundImage: `url("images/about-1-bg.png")`,
+                backgroundImage: `url('images/about-1-bg.png')`,
                 backgroundSize: 'cover'
             }}
             >
@@ -21,12 +21,11 @@ export default function About() {
                 alt="Vector Image"
                 width={320}
                 height={200}
-                className="w-[20%] h-84 rounded-md relative right-16 object-contain md:w-full"
+                className="w-[60%] h-84 rounded-md object-contain md:w-full"
               />                
             </div>
           </div>
-  
-          <div className="comeRight flex flex-col gap-5 bg-[#f6f6f6] md:w-full shadow-lg/20 rounded-b-2xl py-6 ps-[2vw] pe-[2vw]">
+          <div className="flex flex-col gap-5 bg-[#f6f6f6] w-full shadow-lg/20 rounded-b-2xl py-6 px-4 sm:px-[2vw]">
                 <h2 className="text-[25px] font-bold text-[#ff0912]">Who We Are</h2>
                 <p className="text-base/8 text-[#003867] capitalize">
                   New Testament Baptist Church is a Bible-believing church dedicated to spreading the teachings of Christ and making a positive impact on the world around us. 

@@ -7,7 +7,7 @@ import Contact from "./contact/page";
 
 export default function Home() {
   return (
-    <main className="bg-[#FAFAFA]">
+    <main className="bg-[#FAFAFA] px-2 sm:px-0">
       <Hero />
       <About/>
       <Services/>
