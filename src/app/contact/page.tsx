@@ -5,7 +5,7 @@ export default function Contact() {
         <section className="pt-[10vh]">
             <div className="bg-cover bg-center bg-no-repeat relative opacity-80 min-h-[30vh] w-full"
             style={{
-                backgroundImage: `url('/images/DSCN4759.JPG')`,
+                backgroundImage: `url('images/DSCN4759.JPG')`,
                 backgroundSize: 'cover',
                 transition: 'background-image 8s fade'
             }}

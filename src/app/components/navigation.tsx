@@ -12,7 +12,7 @@ export const Navigation = () => {
             <div className="flex items-center flex-shrink-0">
                 <Link href="/">
                     <Image
-                        src="/ntbcLogo.svg"
+                        src="./ntbcLogo.svg"
                         alt="ntbc-logo"
                         width={120}
                         height={45}

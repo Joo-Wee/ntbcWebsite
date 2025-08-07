@@ -22,7 +22,7 @@ export default function Services(){
             </div>
             <div className="bg-cover bg-center bg-no-repeat relative opacity-80 min-h-[30vh] w-full"
             style={{
-                backgroundImage: `url('/images/DSCN4799.JPG')`,
+                backgroundImage: `url('images/DSCN4799.JPG')`,
                 backgroundSize: 'cover',
                 transition: 'background-image 8s fade'
             }}
