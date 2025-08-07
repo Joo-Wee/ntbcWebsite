@@ -4,17 +4,17 @@ const ministries = [
     {
         name: "Men's Fellowship Ministry",
         body: "The Men's Fellowship is a brotherhood dedicated to spiritual growth and community service. We build strong relationships and support one another in our roles as Christian leaders, making a positive impact in our families and community.",
-        img: "/images/Men's Fellowship.jpg"
+        img: "./images/Men's Fellowship.jpg"
     },
     {
         name: "Women's Fellowship Ministry",
         body: "The Women's Fellowship is a supportive sisterhood where women of all ages connect and grow in faith. We foster deep friendships, provide encouragement, and serve the church and community through various compassionate outreach initiatives.",
-        img: "/images/Women's Fellowship.jpg"
+        img: "./images/Women's Fellowship.jpg"
     },
     {
         name: "Youth Ministry",
         body: "Our Youth Ministry empowers young people to grow in their faith. Through discipleship and service, we help them develop into Christ-centered leaders who positively influence their peers and community.",
-        img: "/images/Youth Fellowship-Pic.jpg"
+        img: "./images/Youth Fellowship-Pic.jpg"
     }
 ]
 

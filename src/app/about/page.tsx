@@ -17,7 +17,7 @@ export default function About() {
             }}
             >
               <Image
-                src="/images/DSCN4751.JPG"
+                src="./images/DSCN4751.JPG"
                 alt="Vector Image"
                 width={320}
                 height={200}

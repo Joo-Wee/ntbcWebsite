@@ -47,7 +47,7 @@ export default function RootLayout({
           <div className="w-full max-w-6xl flex flex-col gap-y-10 gap-x-12 md:flex-row md:justify-between md:items-stretch">
             {/* Logo & Contact */}
             <div className="flex flex-col h-full items-start min-w-[180px] flex-1 py-2">
-              <img src="/ntbcLogo.svg" alt="NTBC Logo" className="w-12 h-auto mb-4" />
+              <img src="./ntbcLogo.svg" alt="NTBC Logo" className="w-12 h-auto mb-4" />
               <p className="italic text-[#003867] mb-2">Let's Connect</p>
               <a href="tel:+233244279458" className="text-lg font-bold text-[#003867] mb-1 hover:underline">+233 244 279 458</a>
               <span className="text-[#003867]">Write to our mail</span>

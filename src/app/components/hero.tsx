@@ -6,8 +6,8 @@ import { Navigation } from "./navigation";
 
 var images = [
     'https://lh3.googleusercontent.com/p/AF1QipOArBwHW_pCziFrJpz1Qr5rtjQTJdVHThRFBBX9=s680-w680-h510',
-    '/images/DSCN4649.JPG',
-    '/images/DSCN4650.JPG'
+    './images/DSCN4649.JPG',
+    './images/DSCN4650.JPG'
 ];
 
 export const Hero = () => {
