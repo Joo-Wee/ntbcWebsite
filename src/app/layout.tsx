@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Socials } from "./components/socials";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,15 +20,15 @@ export const metadata: Metadata = {
   manifest: '/site.webmanifest',
   icons: {
     icon: [
-      { url: '/favicon.ico', sizes: 'any' },
-      { url: '/favicon-32x32', type: 'image/png', sizes: '32x32' },
-      { url: '/favicon-16x16', type: 'image/png', sizes: '16x16' },
-      { url: '/apple-touch-icon.png', type: 'image/png', sizes: '180x180' },
+      { url: '/assets/favicon.ico', sizes: 'any' },
+      { url: '/assets/favicon-32x32.png', type: 'image/png', sizes: '32x32' },
+      { url: '/assets/favicon-16x16.png', type: 'image/png', sizes: '16x16' },
+      { url: '/assets/apple-touch-icon.png', type: 'image/png', sizes: '180x180' },
     ],
     apple: [
-      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+      { url: '/assets/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
     ],
-    shortcut: ['/favicon.ico'],
+    shortcut: ['/assets/favicon.ico'],
   },
 };
 
@@ -38,6 +39,41 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* ✅ Structured Data Script */}
+        <Script
+          id="structured-data"
+          type="application/ld+json"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Worldwide New Testament Baptist Church, Ghana",
+              "url": "https://ntbcghana.org", 
+              "logo": "https://ntbcghana.org/assets/apple-touch-icon.png",
+              "sameAs": [
+                "https://web.facebook.com/New-Testament-Baptist-Church-at-Afrancho-Bronkong-104526781115548",
+                "https://www.youtube.com/@ntbcworldwide651",
+                "https://www.tiktok.com/@wwntbc"
+              ],
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+233 24 427 9458",
+                "contactType": "customer service",
+                "areaServed": "GH",
+                "availableLanguage": ["English"]
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "AF-0349-2885, Afrancho, Bronkong",
+                "addressLocality": "Kumasi",
+                "addressCountry": "GH"
+              }
+            }),
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-white`}
       >
