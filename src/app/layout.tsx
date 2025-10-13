@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "WWNTBC Ghana",
   description: "Worldwide New Testament Baptist Church, Ghana's official website",
+  verification: {
+    google: "YssDVbaHsR_WmRBwDlSSkbVCefkG2M0QpeMCosBHhDg", 
+  },
   manifest: '/site.webmanifest',
   icons: {
     icon: [
