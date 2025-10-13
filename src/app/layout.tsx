@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "WWNTBC Ghana",
-  description: "Worldwide New Testament Baptist Church, Ghana's02 official website",
+  description: "Worldwide New Testament Baptist Church, Ghana's official website",
   manifest: '/site.webmanifest',
   icons: {
     icon: [
@@ -29,6 +29,22 @@ export const metadata: Metadata = {
       { url: '/assets/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
     ],
     shortcut: ['/assets/favicon.ico'],
+  },
+  openGraph: {
+    title: "Worldwide New Testament Baptist Church, Ghana",
+    description: "Join us for worship, Bible studies, and spiritual growth in Christ.",
+    url: "https://ntbcghana.com",
+    siteName: "WWNTBC Ghana",
+    images: [
+      {
+        url: "https://ntbcghana.com/assets/apple-touch-icon.png",
+        width: 180,
+        height: 180,
+        alt: "WWNTBC Ghana Logo",
+      },
+    ],
+    locale: "en_GH",
+    type: "website",
   },
 };
 
@@ -69,7 +85,9 @@ export default function RootLayout({
                 "streetAddress": "AF-0349-2885, Afrancho, Bronkong",
                 "addressLocality": "Kumasi",
                 "addressCountry": "GH"
-              }
+              },
+              "image": "https://ntbcghana.org/assets/images/DSCN4650.jpg",
+              "hasMap": "https://maps.app.goo.gl/AGA34FkjpoQc4Ynp6"
             }),
           }}
         />

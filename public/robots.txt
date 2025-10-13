@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ntbcghana.com
+
+# Sitemaps
+Sitemap: https://ntbcghana.com/sitemap.xml
